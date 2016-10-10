@@ -1,0 +1,14 @@
+#两种引用函数库的方式
+
+
+
+1： 	import<库名> 如import turtle	
+		库名.函数名	 如turtle.fd(100)
+
+
+2：		from <库名> import <函数名>
+		from <库名> import *
+					 如from turtle import*
+					   fd(100)
+
+第一种可以自己编写函数名，第二种只能调用
